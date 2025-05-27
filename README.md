@@ -82,7 +82,7 @@ Contribuições são bem-vindas! Se você tiver ideias de melhorias, correções
 ## 🙋‍♂️ Autor
 
 Desenvolvido por **Douglas Bastos**  
-📧 [LinkedIn](https://www.linkedin.com/in/douglasbastos/)  
+📧 [LinkedIn](https://www.linkedin.com/in/dougbastos/)  
 📁 Repositório pessoal: [github.com/dougbastos](https://github.com/dougbastos)
 
 ---
