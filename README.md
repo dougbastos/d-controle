@@ -1,69 +1,91 @@
-# 📊 D-Controle – Simulador de Fundos Imobiliários
+# 📊 D-Controle – Simulador de Fundos Imobiliários (FIIs)
 
-
-O **D-Controle** é uma ferramenta prática desenvolvida no Microsoft Excel com o objetivo de simular investimentos em **fundos imobiliários (FIIs)**. A planilha permite ao usuário visualizar o crescimento do patrimônio, dividendos mensais e rendimento acumulado ao longo do tempo, com base em parâmetros personalizáveis como aporte inicial, mensal e taxa de rendimento.
-
----
-
-## 🎯 Objetivo do Projeto
-
-Este projeto foi desenvolvido como parte do bootcamp de Excel da [DIO](https://www.dio.me/), com o objetivo de aplicar na prática os conhecimentos adquiridos sobre:
-
-- Cálculos financeiros
-- Automação e fórmulas no Excel
-- Visualização de dados
-- Documentação técnica com GitHub
+**D-Controle** é uma planilha interativa desenvolvida em **Microsoft Excel**, criada para simular investimentos em Fundos Imobiliários (FIIs) ao longo do tempo. A ferramenta permite ao usuário visualizar o crescimento do seu patrimônio, dividendos mensais e rendimento acumulado com base em aportes e rendimentos personalizados.
 
 ---
 
-## 🧠 Conceitos Aplicados
+## 🎯 Objetivos do Projeto
 
-- Juros compostos
-- Dividend Yield (DY)
-- Cálculo de dividendos mensais
-- Cálculo de patrimônio acumulado
-- Uso de gráficos dinâmicos
-- Validação de dados
-- Layout responsivo e visual limpo
+- Simular a evolução de um investimento em FIIs com diferentes valores de aportes mensais e taxas de retorno.
+- Ajudar investidores a visualizar a importância dos aportes recorrentes e da constância nos investimentos.
+- Promover o entendimento sobre juros compostos e rendimento passivo no longo prazo.
+- Desenvolver habilidades em automação, fórmulas financeiras e visualização de dados no Excel.
+- Treinar documentação técnica e versionamento de arquivos utilizando o GitHub.
 
 ---
 
-## 🧮 Como Usar
+## 🖼️ Captura de Tela
 
-1. **Insira os dados nos campos destacados**:
-   - Valor inicial do investimento
-   - Aporte mensal
-   - Taxa de rendimento (% ao mês)
-   - Período do investimento (em meses)
-
-2. **Resultados gerados automaticamente**:
-   - Valor total investido
-   - Dividendos mensais
-   - Patrimônio acumulado
-   - Gráficos de evolução
-
-🛠️ **Tecnologias Utilizadas**:
-Microsoft Excel (funções: SE, SOMA, PROCV, TABELA, GRÁFICO, TAXA, VF)
-
-🖼️ **Exemplos Visuais**
-
-Você pode ver anexo um exemplo visual da planilha.
-
-📌 **Conclusão**
-
-Este projeto demonstrou como o Excel pode ser uma ferramenta poderosa para simulações financeiras. Com o D-Controle, investidores iniciantes ou intermediários podem ter uma visão clara de seus resultados futuros com FIIs e tomar decisões mais estratégicas.
-
-📎 **Créditos**
-Desenvolvido por Douglas Bastos
-
-Bootcamp Excel – Digital Innovation One
+![Interface da Planilha D-Controle](./Captura%20de%20tela%20D-controle.png)
 
 ---
 
-## 📂 Estrutura do Repositório
+## 📁 Arquivos no Repositório
 
-```bash
-📁 simulador-fundos-imobiliarios-d-controle
-├── Simulador_D-Controle.xlsx         # Planilha do simulador
-├── README.md                         # Documentação do projeto
+| Arquivo                    | Descrição                                                                 |
+|---------------------------|---------------------------------------------------------------------------|
+| `Simulador_D-Controle.xlsx` | Planilha Excel com todas as fórmulas e gráficos para simulação de FIIs.   |
+| `Captura de tela D-controle.png` | Imagem demonstrativa da interface da planilha.                         |
+| `README.md`                | Documento explicativo com objetivos, instruções e estrutura do projeto.   |
+
+---
+
+## 🛠️ Como Usar
+
+1. **Abra o arquivo `Simulador_D-Controle.xlsx` no Excel** (recomenda-se versão 2016 ou superior).
+2. **Preencha os campos indicados**, como:
+   - Aporte inicial (ex: R$ 1.000,00)
+   - Valor dos aportes mensais
+   - Taxa média de rendimento mensal (ex: 0,75%)
+   - Duração da simulação (ex: 12, 24, 60 meses)
+
+3. **Observe os resultados automáticos**, como:
+   - Gráfico de crescimento patrimonial
+   - Total de dividendos acumulados
+   - Rendimento passivo mês a mês
+
+4. **Faça diferentes simulações** alterando os parâmetros acima para comparar cenários.
+
+---
+
+## 🧠 Conceitos Utilizados
+
+- Fórmulas financeiras no Excel (ex: **FV**, **SOMA**, **SE**, **MULT**, entre outras).
+- Automatização de cálculos de rendimento mensal com reinvestimento.
+- Visualização gráfica do crescimento do capital.
+- Estruturação lógica de simulação mês a mês.
+- Uso do GitHub como repositório de documentação e versionamento.
+
+---
+
+## 📌 Requisitos
+
+- Microsoft Excel 2016 ou superior
+- Conhecimentos básicos em planilhas (edição de células, fórmulas simples)
+- Curiosidade sobre finanças e investimentos em FIIs
+
+---
+
+
+## 🤝 Contribuições
+
+Contribuições são bem-vindas! Se você tiver ideias de melhorias, correções ou novos recursos para a planilha, siga os passos:
+
+1. Faça um fork do projeto.
+2. Crie uma branch com sua melhoria: `git checkout -b minha-melhoria`
+3. Commit suas alterações: `git commit -m 'Melhoria: descrição da melhoria'`
+4. Push para a branch: `git push origin minha-melhoria`
+5. Abra um Pull Request.
+
+---
+
+## 🙋‍♂️ Autor
+
+Desenvolvido por **Douglas Bastos**  
+📧 [LinkedIn](https://www.linkedin.com/in/douglasbastos/)  
+📁 Repositório pessoal: [github.com/dougbastos](https://github.com/dougbastos)
+
+---
+
+> 💡 “Mais importante do que quanto você investe, é a consistência com que investe.”
 
